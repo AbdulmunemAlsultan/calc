@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calcultor</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="contant" class="contant">
+            <img id="next" src="img/next.png" width="35" height="40" onclick="next()">
+            <div class="box box1">
+                <input id="display" type="text" name="" readonly>
+            </div>
+            <div class="box box6">
+                <input class="button" type="button" name="" value="AC" onclick="AC()">
+            </div>
+            <div class="box box7">
+                <input class="button" type="button" name="" value="(" onclick="math('(')">
+            </div>
+            <div class="box box8">
+                <input class="button" type="button" name="" value=")" onclick="math(')')">
+            </div>
+            <div class="box box9">
+                <input class="button" type="button" name="" value="/" onclick="math('/')">
+            </div>
+            <div class="box box10">
+                <input class="button" type="button" name="" value="7" onclick="math('7')">
+            </div>
+            <div class="box box11">
+                <input class="button" type="button" name="" value="8" onclick="math('8')">
+            </div>
+            <div class="box box12">
+                <input class="button" type="button" name="" value="9" onclick="math('9')">
+            </div>
+            <div class="box box13">
+                <input class="button" type="button" name="" value="*" onclick="math('*')">
+            </div>
+            <div class="box box14">
+                <input class="button" type="button" name="" value="4" onclick="math('4')">
+            </div>
+            <div class="box box15">
+                <input class="button" type="button" name="" value="5" onclick="math('5')">
+            </div>
+            <div class="box box16">
+                <input class="button" type="button" name="" value="6" onclick="math('6')">
+            </div>
+            <div class="box box17">
+                <input class="button" type="button" name="" value="-" onclick="math('-')">
+            </div>
+            <div class="box box18">
+                <input class="button" type="button" name="" value="1" onclick="math('1')">
+            </div>
+            <div class="box box19">
+                <input class="button" type="button" name="" value="2" onclick="math('2')">
+            </div>
+            <div class="box box20">
+                <input class="button" type="button" name="" value="3" onclick="math('3')">
+            </div>
+            <div class="box box21">
+                <input class="button" type="button" name="" value="+" onclick="math('+')">
+            </div>
+            <div class="box box22">
+                <input class="button" type="button" name="" value="0" onclick="math('0')">
+
+            </div>
+            <div class="box box23">
+                <input class="button" type="button" name="" value="." onclick="math('.')">
+            </div>
+            <div class="box box24">
+                <input class="button" type="button" name="" value="=" onclick="equal()">
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        &copy; Alsultan
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

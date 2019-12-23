@@ -1,0 +1,227 @@
+body {
+    margin: 0px;
+    background-image: url(../img/c3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+
+.container {
+    margin: 0px;
+    height: auto;
+}
+
+.container .contant {
+    width: 35%;
+    height: auto;
+    display: grid;
+    margin: 2% auto 2%;
+    justify-content: center;
+}
+
+.contant {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(75px, auto);
+}
+
+.box:not(:first-of-type) {
+    border: 1px solid grey;
+    font-size: 25px;
+}
+
+.box1 {
+    grid-column: 1/5;
+    grid-row: 1/3;
+    background: #5d6d7e;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 30px;
+    background-color: slategray;
+}
+
+.box1 #display {
+    background-color: #212f3c;
+    color: white;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box22 {
+    grid-column: 1/3;
+    grid-row: 7/7;
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.box6,
+.box7,
+.box8,
+.box9,
+.box13,
+.box17,
+.box21,
+.box24 {
+    background-color: #af7ac5;
+}
+
+.box2,
+.box3,
+.box4,
+.box5,
+.box10,
+.box11,
+.box12,
+.box14,
+.box15,
+.box16,
+.box18,
+.box19,
+.box20,
+.box22,
+.box23 {
+    background-color: #fadbd8;
+}
+
+.box6:hover {
+    background-color: #b3b6b7;
+    transition: 1s;
+}
+
+.box7:hover {
+    background-color: #b3b6b7;
+    transition: 1s;
+}
+
+.box8:hover {
+    background-color: #b3b6b7;
+    transition: 1s;
+}
+
+.box9:hover {
+    background-color: #b3b6b7;
+    transition: 1s;
+}
+
+.box13:hover {
+    background-color: #b3b6b7;
+    transition: 1s;
+}
+
+.box17:hover {
+    background-color: #b3b6b7;
+    transition: 1s;
+}
+
+.box21:hover {
+    background-color: #b3b6b7;
+    transition: 1s;
+}
+
+.box24:hover {
+    background-color: #b3b6b7;
+    transition: 1s;
+}
+
+.box2:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box3:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box4:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box5:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box10:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box11:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box12:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box14:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box15:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box16:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box18:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box19:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box20:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box22:hover {
+    background-color: #e67e22;
+    transition: 1s;
+}
+
+.box23:hover {
+    background-color: #e67e22;
+    transition: 1s
+}
+
+.footer {
+    text-align: center;
+    font-size: 24px;
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+img {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+}
